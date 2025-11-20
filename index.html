@@ -7,8 +7,20 @@
 <meta name="description" content="Создаю сайты, HTML/JS игры, скрипты, боты и мини-проекты. Заказ через Telegram и WhatsApp.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body {margin:0;font-family:'Arial',sans-serif;background:linear-gradient(135deg,#0b0b0b,#1c1c1c);background-size:400% 400%;animation:gradientBG 15s ease infinite;color:white;scroll-behavior:smooth;}
-@keyframes gradientBG{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+body {
+  margin:0;
+  font-family:'Arial','Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;
+  background:linear-gradient(135deg,#0b0b0b,#1c1c1c);
+  background-size:400% 400%;
+  animation:gradientBG 15s ease infinite;
+  color:white;
+  scroll-behavior:smooth;
+}
+@keyframes gradientBG{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
 header {padding:50px 20px;text-align:center;background: rgba(17,17,17,0.9);border-bottom:3px solid #444;overflow:hidden;}
 h1 {margin:0;font-size:48px;background:linear-gradient(to right,#00ffff,#ff00ff,#ffff00);background-size:200% 200%;-webkit-background-clip:text;color:transparent;animation: gradientText 5s ease infinite, fadeTitle 2s ease forwards;}
 @keyframes gradientText{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
@@ -38,6 +50,7 @@ footer{text-align:center;padding:30px;color:#aaa;border-top:1px solid #333;margi
 footer .currency-note-footer{color:#00ffcc;font-weight:bold;margin-top:5px;}
 @media(max-width:600px){.card{padding:20px;margin-bottom:20px;}h1{font-size:40px;}p{font-size:16px;}.card p{font-size:15px;}button,.faq-question{font-size:16px;padding:12px 20px;}.top-buttons button{padding:6px 12px;font-size:13px;}.scroll-top{padding:16px 20px;}}
 @keyframes gradientBtn{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+.bot-emoji{font-family:'Segoe UI Emoji','Apple Color Emoji','Noto Color Emoji',sans-serif;}
 </style>
 </head>
 <body>
@@ -58,7 +71,7 @@ footer .currency-note-footer{color:#00ffcc;font-weight:bold;margin-top:5px;}
 <div class="card"><h2>Сложные сайты ??</h2><p>Сайты с анимациями, спец-эффектами, интерактивными блоками, большим количеством страниц.</p><p class="price">Большой сайт: 8000 ?</p><p class="price">Сайт с анимациями/эффектами: 10 000 ?</p></div>
 <div class="card"><h2>Простые игры ??</h2><p>Мини-игры: кликеры, платформеры, простые шутеры.</p><p class="price">Простая HTML-игра: 3000 ?</p></div>
 <div class="card"><h2>Сложные игры ??</h2><p>Игры с уровнями, движением, эффектами и сложной логикой.</p><p class="price">Сложная игра: 7000 ?</p><p class="price">Большой игровой проект: 12 000 ?</p></div>
-<div class="card"><h2>Боты ??</h2>
+<div class="card"><h2>Боты <span class="bot-emoji">??</span></h2>
 <p><img src="https://telegram.org/img/t_logo.png" style="width:25px;height:25px;vertical-align:middle;margin-right:8px;"> Telegram-боты: простые, с кнопками/меню, магазины. Автоматизация задач, уведомления, интерактивность.</p>
 <p class="price">Простой бот: 4000 ?</p><p class="price">Бот с кнопками/меню: 7000 ?</p><p class="price">Бот-магазин: 10 000 ?</p></div>
 <div class="card"><h2>Скрипты ??</h2><p>JavaScript: анимации, эффекты, игровая логика, автоматизация процессов и функциональные дополнения для сайтов.</p><p class="price">Маленький скрипт: 1500 ?</p><p class="price">Сложный скрипт: 4000 ?</p></div>
