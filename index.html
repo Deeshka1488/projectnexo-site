@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мои услуги — ProjectNexo</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Создаю сайты, HTML/JS игры, скрипты и мини-проекты. Заказ через Telegram и WhatsApp.">
+    <meta name="keywords" content="создание сайтов, html игры, js игры, мини-проекты, скрипты, веб-разработка, ProjectNexo">
+    <meta name="author" content="ProjectNexo">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #0d0d0d, #1a1a1a);
+            color: white;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            padding: 30px;
+            text-align: center;
+            background: #111;
+            border-bottom: 2px solid #333;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 38px;
+            background: linear-gradient(to right, cyan, magenta);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        p {
+            color: #aaa;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: #151515;
+            border: 1px solid #333;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.8s forwards;
+        }
+
+        .card:nth-child(1) { animation-delay: 0.2s; }
+        .card:nth-child(2) { animation-delay: 0.4s; }
+        .card:nth-child(3) { animation-delay: 0.6s; }
+        .card:nth-child(4) { animation-delay: 0.8s; }
+        .card:nth-child(5) { animation-delay: 1s; }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: cyan;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            background: linear-gradient(90deg, cyan, magenta);
+            color: black;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #777;
+            border-top: 1px solid #333;
+            margin-top: 30px;
+        }
+
+        .price {
+            color: cyan;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Мои услуги</h1>
+    <p>Создание сайтов • HTML/JS игр • Скрипты • Мини-проекты</p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>Создание сайтов ??</h2>
+        <p>Делаю красивые и удобные сайты: визитки, лендинги, портфолио, странички для бизнеса.</p>
+        <p class="price">Базовая цена: от 3000 ?</p>
+        <p class="price">Сложные сайты: 4000–6000 ?</p>
+    </div>
+
+    <div class="card">
+        <h2>HTML/JS мини-игры ??</h2>
+        <p>Создам простую браузерную игру: платформер, кликер, мини-шутер или dodge-игру.</p>
+        <p class="price">Базовая цена: от 2000 ?</p>
+        <p class="price">Сложные игры: 2500–4000 ?</p>
+    </div>
+
+    <div class="card">
+        <h2>Скрипты и код ??</h2>
+        <p>Напишу или исправлю JavaScript, добавлю анимации, эффекты, игровую логику.</p>
+        <p class="price">Базовая цена: от 1500 ?</p>
+        <p class="price">Сложные скрипты: 2000–3000 ?</p>
+    </div>
+
+    <div class="card">
+        <h2>Малые проекты и интерактивные элементы ??</h2>
+        <p>Небольшие проекты для сайтов: мини-игры, интерактивные блоки, калькуляторы, анимации и слайдеры. Быстро, красиво и недорого.</p>
+        <p class="price">Базовая цена: от 1000 ?</p>
+        <p class="price">Сложные проекты: 1500–2000 ?</p>
+         </div>
+
+    <div class="card">
+        <h2>Контакты для заказа ??</h2>
+        <p>Связаться через мессенджеры:</p>
+        <a href="https://t.me/ProjectNexo" target="_blank">
+            <button>Написать в Telegram</button>
+        </a>
+        <a href="https://wa.me/77711743008?text=Здравствуйте!%20Хочу%20заказать%20услугу" target="_blank">
+            <button>Написать в WhatsApp</button>
+        </a>
+    </div>
+</section>
+
+<footer>
+    © 2025 Мои услуги. Все права защищены.
+</footer>
+
+</body>
+</html>
